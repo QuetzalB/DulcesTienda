@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PistachesUSA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+<header>
+    <div class="region-selector">
+        <div class="current-region">
+            <img src="images/USA.png" alt="Mexico" class="region-flag">
+            <span class="region-name">USA</span>
+        </div>
+        <div class="region-dropdown">
+            <div class="region-search">
+                <input type="text" placeholder="Search country...">
+                <i>🔍</i>
+            </div>
+            <div class="regions-list">
+                <a href="mexico.html" class="region-item active">
+                    <img src="images/MX.png" alt="Mexico" class="region-flag">
+                    <span>Mexico</span>
+                </a>
+                <a href="spain.html" class="region-item">
+                    <img src="images/ES.png" alt="Spain" class="region-flag">
+                    <span>Spain</span>
+                </a>
+                <a href="usa.html" class="region-item">
+                    <img src="images/USA.png" alt="United States of America" class="region-flag">
+                    <span>USA</span>
+                </a>
+                <a href="japon.html" class="region-item">
+                    <img src="images/JPN.png" alt="Japan" class="region-flag">
+                    <span>Japan</span>
+                </a>
+                <a href="chile.html" class="region-item">
+                    <img src="images/chile.png" alt="Chile" class="region-flag">
+                    <span>Chile</span>
+                </a>
+                <a href="china.html" class="region-item">
+                    <img src="images/china.png" alt="China" class="region-flag">
+                    <span>China</span>
+                </a>
+                <a href="arabia.html" class="region-item">
+                    <img src="images/arabia.png" alt="Arabia" class="region-flag">
+                    <span>Arabia</span>
+                </a>
+                <a href="holanda.html" class="region-item">
+                    <img src="images/Holanda.svg" alt="Netherlands" class="region-flag">
+                    <span>Netherlands</span>
+                </a>
+            </div>
+            <div class="region-hint">
+                Select your country to view available products
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="logo">Pista<span>chios</span></a>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Sweets</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="header-icons">
+        <button class="icon-btn">👤</button>
+        <button class="icon-btn" id="cartBtn">
+            🛒
+            <span class="cart-count">3</span>
+        </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Peanuts and Pistachios!</h1>
+        <p>Discover our selection of gourmet sweets and the latest tech products with fast and secure shipping.</p>
+        <div class="hero-btns">
+            <button class="btn btn-primary">View products</button>
+            <button class="btn btn-secondary">Special offers</button>
+        </div>
+    </div>
+</section>
+
+    
+<!-- Features Section -->
+<section class="features">
+    <div class="section-title">
+        <h2>Why Choose Us?</h2>
+        <p>We offer quality, speed, and the best service for you</p>
+    </div>
+    
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>Fast Shipping</h3>
+            <p>Receive your products in less than 48 hours nationwide</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure Payment</h3>
+            <p>All transactions are protected with SSL encryption</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3>Free Returns</h3>
+            <p>30 days to return any product at no cost</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🎁</div>
+            <h3>Exclusive Gifts</h3>
+            <p>Special surprises on orders over $25</p>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="products">
+    <div class="section-title">
+        <h2>Everything for $1.50!</h2>
+        <p>Discover our bestsellers and latest arrivals</p>
+    </div>
+    
+    <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="images/cacahuate_enchilado.png" alt="Spicy Peanuts" class="product-img">
+            <span class="product-badge featured-badge">Featured</span>
+            <div class="product-info">
+                <h3 class="product-title">Spicy Peanuts</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★★</div>
+                    <span>(128)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="images/cahuate_garapinado.png" alt="Candied Peanuts with Sesame" class="product-img">
+            <span class="product-badge sale-badge">-20%</span>
+            <div class="product-info">
+                <h3 class="product-title">Candied Peanuts with Sesame</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(95)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="images/pistache_sal.png" alt="Salted Pistachios" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">Salted Pistachios</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★★</div>
+                    <span>(213)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="images/pistache_enchilado.png" alt="Spicy Pistachios" class="product-img">
+            <div class="out-of-stock-overlay">Out of Stock</div>
+            <div class="product-info">
+                <h3 class="product-title">Spicy Pistachios</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary" disabled>Out of Stock</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="images/pistache_limon.png" alt="Spicy Pistachios with Lemon" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">Spicy Pistachios with Lemon</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="images/pistache_limon.png" alt="Lemon Pistachios" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">Lemon Pistachios</h3>
+                <div class="product-price">$1.50 USD</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+ <!-- Gum and Candy Section -->
+<section class="candy-section" id="xd">
+    <div class="section-title">
+        <h2>Gum and Candy</h2>
+        <p>Discover our delicious selection of premium sweets</p>
+    </div>
+    
+    <div class="candy-grid">
+        <!-- Candy 1 -->
+        <div class="candy-card">
+            <img src="images/halls_menta.png" alt="Halls Mint" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Halls Mint</h3>
+                <div class="candy-price">$0.99 USD</div>
+                <p class="candy-description">A refreshing and delicious mix for any occasion.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Refreshing</span>
+                    <span class="candy-tag">Classic</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Candy 2 -->
+        <div class="candy-card">
+            <img src="images/halls_negras.png" alt="Halls Black" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Halls Black</h3>
+                <div class="candy-price">$0.99 USD</div>
+                <p class="candy-description">A refreshing and delicious mix for any occasion.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Refreshing</span>
+                    <span class="candy-tag">Classic</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Candy 3 -->
+        <div class="candy-card">
+            <img src="images/clorets.png" alt="Clorets" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Clorets (60 pcs)</h3> 
+                <div class="candy-price">$8.99 USD</div>
+                <p class="candy-description">A refreshing and delicious mix for any occasion.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">60 Pieces</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Candy 4 -->
+        <div class="candy-card">
+            <img src="images/tictac.png" alt="Tic Tac" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Tic Tac Coca-Cola</h3>
+                <div class="candy-price">$1.09 USD</div>
+                <p class="candy-description">Tic Tac for great taste and freshness.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">12 Pieces</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Candy 5 -->
+        <div class="candy-card">
+            <img src="images/trident.png" alt="Trident Gum" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Trident</h3>
+                <div class="candy-price">$1.19 USD</div>
+                <p class="candy-description">Tropical sweets with authentic flavors.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Tropical</span>
+                    <span class="candy-tag">Authentic</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    <!-- Dulces y chocolates Section -->
+    <section class="candy-section">
+        <div class="section-title">
+            <h2>Candy & Chocolates</h2>
+            <p>Discover our delicious selection of sweets</p>
+        </div>
+        
+        <div class="candy-grid">
+    
+            <!-- Carlos V -->
+            <div class="candy-card">
+                <img src="images/carlos_v.png" alt="Carlos V" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Carlos V Classic</h3>
+                    <div class="candy-price">$0.88 USD</div>
+                    <p class="candy-description">A delicious blend for any occasion.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Super Tasty</span>
+                        <span class="candy-tag">Classic</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Ferrero Rocher -->
+            <div class="candy-card">
+                <img src="images/ferrero.png" alt="Ferrero Rocher" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Ferrero Rocher</h3>
+                    <div class="candy-price">$5.00 USD</div>
+                    <p class="candy-description">Perfect for gifting and indulging.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Elegant</span>
+                        <span class="candy-tag">Classic</span>
+                        <span class="candy-tag">Free Shipping</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- M&M's -->
+            <div class="candy-card">
+                <img src="images/manems.png" alt="M&M's" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">M&M's</h3>
+                    <div class="candy-price">$2.35 USD</div>
+                    <p class="candy-description">Perfect sweets for every moment.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">60 Pieces</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Kiss -->
+            <div class="candy-card">
+                <img src="images/kiss.png" alt="Kiss" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kiss</h3>
+                    <div class="candy-price">$4.70 USD</div>
+                    <p class="candy-description">Chocolates made for sharing.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">12 Pieces</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Milky Way -->
+            <div class="candy-card">
+                <img src="images/milky_way.png" alt="Milky Way" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Milky Way</h3>
+                    <div class="candy-price">$1.18 USD</div>
+                    <p class="candy-description">Take five minutes for yourself.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Delicious</span>
+                        <span class="candy-tag">Authentic</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Snickers -->
+            <div class="candy-card">
+                <img src="images/snickers.png" alt="Snickers" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Snickers</h3>
+                    <div class="candy-price">$1.18 USD</div>
+                    <p class="candy-description">You're not you when you're hungry.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Delicious</span>
+                        <span class="candy-tag">Free Shipping</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Kinder Bueno -->
+            <div class="candy-card">
+                <img src="images/kinder_bueno.png" alt="Kinder Bueno" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kinder Bueno</h3>
+                    <div class="candy-price">$1.06 USD</div>
+                    <p class="candy-description">There's nothing better than Kinder Bueno.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">Chocolate</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Cigarretes -->
+    <section class="candy-section">
+        <div class="section-title">
+            <h2>Cigarettes</h2>
+            <p>LET'S SMOKE</p>
+        </div>
+        
+        <div class="candy-grid">
+    
+            <!-- Marlboro Red -->
+            <div class="candy-card">
+                <img src="images/cigarros_marlboro.png" alt="Marlboro" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title"></h3>
+                    <div class="candy-price">$4.71 USD</div>
+                    <p class="candy-description">Smoking kills.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">+18</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Benson Menthol -->
+            <div class="candy-card">
+                <img src="images/cigarros_benson.png" alt="Benson" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Benson Menthol</h3>
+                    <div class="candy-price">$3.53 USD</div>
+                    <p class="candy-description">Smoking kills.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">+18</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Camel -->
+            <div class="candy-card">
+                <img src="images/cigarros_camel.png" alt="Camel" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Camel</h3>
+                    <div class="candy-price">$4.12 USD</div>
+                    <p class="candy-description">Smoking kills.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">+18</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Raleigh -->
+            <div class="candy-card">
+                <img src="images/cigarros_raleigh.png" alt="Raleigh" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Raleigh</h3>
+                    <div class="candy-price">$4.71 USD</div>
+                    <p class="candy-description">Smoking causes cancer.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">+18</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Botas -->
+            <div class="candy-card">
+                <img src="images/cigarros_botas.png" alt="Botas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Botas</h3>
+                    <div class="candy-price">$2.94 USD</div>
+                    <p class="candy-description">Smoking causes cancer.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Free Shipping</span>
+                        <span class="candy-tag">+18</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+
+    <!-- Other products -->
+
+<section class="candy-section">
+    <div class="section-title">
+        <h2>Other Products</h2>
+        <p>Our variety of products</p>
+    </div>
+
+    <div class="candy-grid">
+
+        <!-- Roses -->
+        <div class="candy-card">
+            <img src="images/rosas.png" alt="Roses" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Roses</h3>
+                <div class="candy-price">$15 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">Roses for the lady.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Pure Sensuality</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tamales -->
+        <div class="candy-card">
+            <img src="images/tamales.png" alt="Tamales" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Green Tamales</h3>
+                <div class="candy-price">$1.10 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">Delicious tamales.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">So tasty, right?</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Telcel Card -->
+        <div class="candy-card">
+            <img src="images/tarjeta_telcel.png" alt="Telcel Card" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Telcel Card</h3>
+                <div class="candy-price">$11 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">With a 1000 recharge.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Recharges</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movistar Card -->
+        <div class="candy-card">
+            <img src="images/tarjeta_movistar.png" alt="Movistar Card" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Movistar</h3>
+                <div class="candy-price">$5.50 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">With a 100 recharge.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Recharges</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Multifon Card -->
+        <div class="candy-card">
+            <img src="images/tarjeta_multifon.png" alt="Multifon Card" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Multifon Card</h3>
+                <div class="candy-price">$5.50 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">With a 150 recharge.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Recharges</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toy Motorcycle -->
+        <div class="candy-card">
+            <img src="images/moto_yamaha.png" alt="Toy Motorcycle" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Toy Motorcycle</h3>
+                <div class="candy-price">$19 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">Kawasaki Ninja H2R collectible.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Toys</span>
+                    <span class="candy-tag">Motorcycles</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bubbles -->
+        <div class="candy-card">
+            <img src="images/burbujas.png" alt="Bubbles" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Bubbles</h3>
+                <div class="candy-price">$2.80 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">Blow bubbles.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                    <span class="candy-tag">Toy</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toy Car -->
+        <div class="candy-card">
+            <img src="images/carro_jueguete.png" alt="Toy Car" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Toy Car</h3>
+                <div class="candy-price">$2.80 USD</div> <!-- Cambié el precio a USD -->
+                <p class="candy-description">Collectible.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Free Shipping</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Receive the latest news, exclusive offers, and promotions directly in your email</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>Pistaches</h3>
+            <p>Your trusted online store for quality sweets. Since 2010, offering the best products at the best price.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📱</a>
+                <a href="#" class="social-link">📸</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#xd">Products</a></li>
+                <li><a href="#">Candies</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul class="footer-links">
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul class="footer-links">
+                <li>📍 123 Main St, Mexico</li>
+                <li>📞 +56 91 123 45 67</li>
+                <li>✉️ luis_cisneros@pistaches.com</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 Pistaches. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Cart Modal -->
+<div class="modal cart-modal" id="cartModal">
+    <div class="modal-content">
+        <h2>Your Cart</h2>
+        <button class="close-modal">&times;</button>
+        
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="images/cahuate_garapinado.png" alt="Smartphone XYZ" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">Candied Peanut</h4>
+                    <div class="cart-item-price">$0.55 USD</div> <!-- Precio convertido a USD -->
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="images/pistache_sal.png" alt="Chocolates" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">Salted Pistachios</h4>
+                    <div class="cart-item-price">$0.55 USD</div> <!-- Precio convertido a USD -->
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>2</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span>$1.10 USD + Free Shipping</span> <!-- Precio total convertido a USD -->
+            </div>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+</div>
+
+<!-- Toast notifications container -->
+<div class="toast-container"></div>
+
+<!-- Floating Cart Button -->
+<div class="floating-cart">
+    🛒
+    <span class="floating-cart-count">3</span>
+</div>
+<!-- Scripts -->
+<script src="scripts.js"></script>
+</body>
+</html>

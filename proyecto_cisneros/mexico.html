@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PistachesMX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="region-selector">
+            <div class="current-region">
+                <img src="images/MX.png" alt="Mexico" class="region-flag">
+                <span class="region-name">México</span>
+            </div>
+            <div class="region-dropdown">
+                <div class="region-search">
+                    <input type="text" placeholder="Buscar país...">
+                    <i>🔍</i>
+                </div>
+                <div class="regions-list">
+                    <a href="#" class="region-item active">
+                        <img src="images/MX.png" alt="México" class="region-flag">
+                        <span>México</span>
+                    </a>
+                    <a href="spain.html" class="region-item">
+                        <img src="images/ES.png" alt="España" class="region-flag">
+                        <span>España</span>
+                    </a>
+                    <a href="usa.html" class="region-item">
+                        <img src="images/USA.png" alt="Estados unidos de america" class="region-flag">
+                        <span>EU</span>
+                    </a>
+                    <a href="japon.html" class="region-item">
+                        <img src="images/JPN.png" alt="Japón" class="region-flag">
+                        <span>Japón</span>
+                    </a>
+                    <a href="chile.html" class="region-item">
+                        <img src="images/chile.png" alt="Chile" class="region-flag">
+                        <span>Chile</span>
+                    </a>
+                    <a href="china.html" class="region-item">
+                        <img src="images/china.png" alt="China" class="region-flag">
+                        <span>China</span>
+                    </a>
+                    <a href="arabia.html" class="region-item">
+                        <img src="images/arabia.png" alt="Arabia" class="region-flag">
+                        <span>Arabia</span>
+                    </a>
+                    <a href="holanda.html" class="region-item">
+                        <img src="images/Holanda.svg" alt="Holanda" class="region-flag">
+                        <span>Holanda</span>
+                    </a>
+                   
+
+                </div>
+                <div class="region-hint">
+                    Selecciona tu país para ver los productos disponibles
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="logo">Pista<span>ches</span></a>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Dulces</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-icons">
+            <button class="icon-btn">👤</button>
+            <button class="icon-btn" id="cartBtn">
+                🛒
+                <span class="cart-count">3</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Cahuates y Pistaches!</h1>
+            <p>Descubre nuestra selección de dulces gourmet y los últimos productos tecnológicos con envíos rápidos y seguros.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">Ver productos</button>
+                <button class="btn btn-secondary">Ofertas especiales</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-title">
+            <h2>¿Por qué elegirnos?</h2>
+            <p>Ofrecemos calidad, rapidez y el mejor servicio para ti</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>Envío Rápido</h3>
+                <p>Recibe tus productos en menos de 48 horas en todo el país</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Pago Seguro</h3>
+                <p>Todas las transacciones están protegidas con cifrado SSL</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3>Devoluciones Gratis</h3>
+                <p>30 días para devolver cualquier producto sin coste</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3>Regalos Exclusivos</h3>
+                <p>Sorpresas especiales en pedidos superiores a 50€</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>A Diez la bolsita!</h2>
+            <p>Descubre lo más vendido y nuestras últimas novedades</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <img src="images/cacahuate_enchilado.png" alt="Smartphone XYZ" class="product-img">
+                <span class="product-badge featured-badge">Destacado</span>
+                <div class="product-info">
+                    <h3 class="product-title">Cahuate enchilado</h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(128)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="images/cahuate_garapinado.png" alt="Laptop ABC" class="product-img">
+                <span class="product-badge sale-badge">-20%</span>
+                <div class="product-info">
+                    <h3 class="product-title">Cacahuate garapiñado con ajonjolí</h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(95)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="images/pistache_sal.png" alt="Smartwatch" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pistaches con sal</h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(213)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <img src="images/pistache_enchilado.png" alt="Auriculares" class="product-img">
+                <div class="out-of-stock-overlay">Agotado</div>
+                <div class="product-info">
+                    <h3 class="product-title">Pistaches </h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary" disabled>Agotado</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pistaches enchilados</h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+        </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pistaches con limón</h3>
+                    <div class="product-price">$10 MXN</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- Chicles y caramelos Section -->
+    <section class="candy-section" id="xd">
+        <div class="section-title">
+            <h2>Chicles y caramelos</h2>
+            <p>Descubre nuestra deliciosa selección de dulces premium</p>
+        </div>
+        
+        <div class="candy-grid">
+            <!-- Dulce 1 -->
+            <div class="candy-card">
+                <img src="images/halls_menta.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Halls Menta</h3>
+                    <div class="candy-price">$15.00 MXN</div>
+                    <p class="candy-description">Una mezcla refrescante y deliciosa para cualquier ocasión.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Refrescante</span>
+                        <span class="candy-tag">Clásico</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 2 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/halls_negras.png" alt="Halls" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">Halls Negras</h3>
+                        <div class="candy-price">$15.00 MXN</div>
+                        <p class="candy-description">Una mezcla refrescante y deliciosa para cualquier ocasión.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">Refrescante</span>
+                            <span class="candy-tag">Clásico</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 3 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/clorets.png" alt="Halls" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">Clorets</h3> 
+                        <div class="candy-price">$150.00 MXN</div>
+                        <p class="candy-description">Una mezcla refrescante y deliciosa para cualquier ocasión.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">Envio gratis</span>
+                            <span class="candy-tag">60 Piezas</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dulce 4 -->
+            <div class="candy-card">
+                <img src="images/tictac.png" alt="Nueces" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Tic Tac Coca-cola</h3>
+                    <div class="candy-price">$16.00 MXN</div>
+                    <p class="candy-description">Tic tac para el buen gusto.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">12 Piezas</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 5 -->
+            <div class="candy-card">
+                <img src="images/trident.png" alt="Cocadas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Trident</h3>
+                    <div class="candy-price">$20.00 MXN</div>
+                    <p class="candy-description">Dulces tropicales con sabores auténticos.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Tropical</span>
+                        <span class="candy-tag">Auténtico</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Dulces y chocolates Section -->
+
+    <section class="candy-section">
+        <div class="section-title">
+            <h2>Dulces y Chocolates</h2>
+            <p>Descubre nuestra deliciosa selección de dulces</p>
+        </div>
+        
+        <div class="candy-grid">
+
+            <!-- Carlos V -->
+            <div class="candy-card">
+                <img src="images/carlos_v.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Carlos V Clasico</h3>
+                    <div class="candy-price">$15.00 MXN</div>
+                    <p class="candy-description">Una mezcla deliciosa para cualquier ocasión.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Buenisímo</span>
+                        <span class="candy-tag">Clásico</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ferrero Rocher -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/ferrero.png" alt="Halls" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">Ferrero</h3>
+                        <div class="candy-price">$85.00 MXN</div>
+                        <p class="candy-description">Elegantes para regalar y darle el gusto.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">Elegante</span>
+                            <span class="candy-tag">Clásico</span>
+                            <span class="candy-tag">Envío Gratis</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- M&M's -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/manems.png" alt="Halls" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">M&M's</h3> 
+                        <div class="candy-price">$40.00 MXN</div>
+                        <p class="candy-description">Dulces para toda ocasión.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">Envio gratis</span>
+                            <span class="candy-tag">60 Piezas</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kiss -->
+            <div class="candy-card">
+                <img src="images/kiss.png" alt="Nueces" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kiss</h3>
+                    <div class="candy-price">$80.00 MXN</div>
+                    <p class="candy-description">Chicolates para compartir.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">12 Piezas</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Milky Way -->
+            <div class="candy-card">
+                <img src="images/milky_way.png" alt="Cocadas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Milky Way</h3>
+                    <div class="candy-price">$20.00 MXN</div>
+                    <p class="candy-description">Date 5 minutos.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Riquizimo</span>
+                        <span class="candy-tag">Auténtico</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Snickers -->
+            <div class="candy-card">
+                <img src="images/snickers.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Snickers</h3>
+                    <div class="candy-price">$ 20 MXN</div>
+                    <p class="candy-description">No eres tu cuando tienes hambre.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Exquisito</span>
+                        <span class="candy-tag">Envio Gratis</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kinder Bueno -->
+            <div class="candy-card">
+                <img src="images/kinder_bueno.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kinder Bueno</h3>
+                    <div class="candy-price">$18 MXN</div>
+                    <p class="candy-description">No hay nada mas rico que Kinder Bueno.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Chocolate</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Botanas y Golosinas -->
+
+    <section class="candy-section">
+        <div class="section-title">
+            <h2>Botanas y Golosinas</h2>
+            <p>Botanitas, ¿Que le voy a dar?</p>
+        </div>
+        
+        <div class="candy-grid">
+
+            <!-- Pepitorias -->
+            <div class="candy-card">
+                <img src="images/pistache_enchilado.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Pepitoria Enchilada</h3>
+                    <div class="candy-price">$10.00 MXN</div>
+                    <p class="candy-description">Pa botanear.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Tradicional</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cacahuate -->
+            <div class="candy-card">
+                <img src="images/cacahuate_enchilado.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Cacahuate enchilado</h3>
+                    <div class="candy-price">$10 MXN</div>
+                    <p class="candy-description">Cacahuate para compartir.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Rico</span>
+                        <span class="candy-tag">Nutritivo</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mazapanes -->
+            <div class="candy-card">
+                <img src="images/mazapanes.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Mazapan</h3>
+                    <div class="candy-price">$10 MXN</div>
+                    <p class="candy-description">Para no romper.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Promoción</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nueces -->
+            <div class="candy-card">
+                <img src="images/nueces.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Nueces</h3>
+                    <div class="candy-price">$50 MXN</div>
+                    <p class="candy-description">Compre sus nueces aquí.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Natural</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pinguinos -->
+            <div class="candy-card">
+                <img src="images/pinguinos.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Pinguinos Gomitas</h3>
+                    <div class="candy-price">$20 MXN</div>
+                    <p class="candy-description"></p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Gomitas</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panditas -->
+            <div class="candy-card">
+                <img src="images/panditas.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Panditas</h3>
+                    <div class="candy-price">$20.00 MX</div>
+                    <p class="candy-description">Las mejores Gomitas del viejo oeste</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gomitas</span>
+                        <span class="candy-tag">Envío Gratis</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ranas -->
+            <div class="candy-card">
+                <img src="images/ranas.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Ranitas</h3>
+                    <div class="candy-price">$5.00</div>
+                    <p class="candy-description">El mejor chocolate del viejo oeste</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Ranitas Riquisimas</span>
+                        <span class="candy-tag">Envío Gratis</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bolas -->
+            <div class="candy-card">
+                <img src="images/bolitas.png" alt="Tarjetas" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Bolitas</h3>
+                    <div class="candy-price">$50 MXN</div>
+                    <p class="candy-description">Dulces de leche</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Deliciosos</span>
+                        <span class="candy-tag">Envío Gratis</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+     </div>
+    </section>
+
+            <!-- Motos -->
+            <div class="candy-card">
+                <img src="images/moto_yamaha.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Moto de juguete</h3>
+                    <div class="candy-price">$350 MXN</div>
+                    <p class="candy-description">Kawasaki ninja h2r de coleccion.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Juguetes</span>
+                        <span class="candy-tag">Motos</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Burbujas -->
+            <div class="candy-card">
+                <img src="images/burbujas.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Burbujas</h3>
+                    <div class="candy-price">$50 MXN</div>
+                    <p class="candy-description">Sopla burbujas.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag">Juguete</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carro -->
+            <div class="candy-card">
+                <img src="images/carro_jueguete.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Carrito de juguete</h3>
+                    <div class="candy-price">$50 MXN</div>
+                    <p class="candy-description">De colección.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Envio Gratis</span>
+                        <span class="candy-tag"></span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+     </div>
+    </section>
+     </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Suscríbete a nuestro boletín</h2>
+            <p>Recibe las últimas novedades, ofertas exclusivas y promociones directamente en tu email</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Tu correo electrónico" class="newsletter-input" required>
+                <button type="submit" class="newsletter-btn">Suscribirse</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Pistaches</h3>
+                <p>Tu tienda online de confianza para dulces de calidad. Desde 2010 ofreciendo los mejores productos al mejor precio.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📱</a>
+                    <a href="#" class="social-link">📸</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#xd">Productos</a></li>
+                    <li><a href="#">Dulces</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Mi Cuenta</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Atención al Cliente</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <ul class="footer-links">
+                    <li>📍 Calle Principal 123, México</li>
+                    <li>📞 +56 91 123 45 67</li>
+                    <li>✉️ luis_cisneros@pistaches.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pistaches. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- Cart Modal -->
+    <div class="modal cart-modal" id="cartModal">
+        <div class="modal-content">
+            <h2>Tu Carrito</h2>
+            <button class="close-modal">&times;</button>
+            
+            <div class="cart-items">
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <img src="images/cahuate_garapinado.png" alt="Smartphone XYZ" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4 class="cart-item-title">Cahuate garapiñado</h4>
+                        <div class="cart-item-price">$10 MXN</div>
+                        <div class="cart-item-quantity">
+                            <button class="qty-btn">-</button>
+                            <span>1</span>
+                            <button class="qty-btn">+</button>
+                            <button class="remove-item">🗑️</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <img src="images/pistache_sal.png" alt="Chocolates" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4 class="cart-item-title">Pistache con sal</h4>
+                        <div class="cart-item-price">$10 MXN</div>
+                        <div class="cart-item-quantity">
+                            <button class="qty-btn">-</button>
+                            <span>2</span>
+                            <button class="qty-btn">+</button>
+                            <button class="remove-item">🗑️</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span>$20 MXN + Envio Gratis</span>
+                </div>
+                <button class="checkout-btn">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toast notifications container -->
+    <div class="toast-container"></div>
+    
+    <!-- Floating Cart Button -->
+    <div class="floating-cart">
+        🛒
+        <span class="floating-cart-count">3</span>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>

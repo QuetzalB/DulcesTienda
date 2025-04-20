@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PistachesNL</title>
+    <link rel="stylesheet" href="styles_holanda.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="region-selector">
+            <div class="current-region">
+                <img src="images/Holanda.svg" alt="Nederland" class="region-flag">
+                <span class="region-name">Nederland</span>
+            </div>
+            <div class="region-dropdown">
+                <div class="region-search">
+                    <input type="text" placeholder="Land zoeken...">
+                    <i>🔍</i>
+                </div>
+                <div class="regions-list">
+                    <a href="mexico.html" class="region-item active">
+                        <img src="images/MX.png" alt="México" class="region-flag">
+                        <span>México</span>
+                    </a>
+                    <a href="spain.html" class="region-item">
+                        <img src="images/ES.png" alt="España" class="region-flag">
+                        <span>España</span>
+                    </a>
+                    <a href="usa.html" class="region-item">
+                        <img src="images/USA.png" alt="Estados unidos de america" class="region-flag">
+                        <span>EU</span>
+                    </a>
+                    <a href="japon.html" class="region-item">
+                        <img src="images/JPN.png" alt="Japón" class="region-flag">
+                        <span>Japón</span>
+                    </a>
+                    <a href="chile.html" class="region-item">
+                        <img src="images/chile.png" alt="Chile" class="region-flag">
+                        <span>Chile</span>
+                    </a>
+                    <a href="china.html" class="region-item">
+                        <img src="images/china.png" alt="China" class="region-flag">
+                        <span>China</span>
+                    </a>
+                    <a href="arabia.html" class="region-item">
+                        <img src="images/arabia.png" alt="Arabia" class="region-flag">
+                        <span>Arabia</span>
+                    </a>
+                    <a href="holanda.html" class="region-item">
+                        <img src="images/Holanda.svg" alt="Holanda" class="region-flag">
+                        <span>Holanda</span>
+                    </a>
+
+                </div>
+                <div class="region-hint">
+                    Selecciona tu país para ver los productos disponibles
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <a href="#" class="logo">Pista<span>ches</span></a>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Startpagina</a></li>
+                <li><a href="#">Producten</a></li>
+                <li><a href="#">Snoepjes</a></li>
+                <li><a href="#">Aanbiedingen</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-icons">
+            <button class="icon-btn">👤</button>
+            <button class="icon-btn" id="cartBtn">
+                🛒
+                <span class="cart-count">3</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Pinda’s en Pistachenoten!</h1>
+            <p>Ontdek onze selectie van gourmet snoepjes en de nieuwste technologische producten met snelle en veilige levering.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">Bekijk producten</button>
+                <button class="btn btn-secondary">Speciale aanbiedingen</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-title">
+            <h2>Waarom voor ons kiezen?</h2>
+            <p>Wij bieden kwaliteit, snelheid en de beste service voor jou</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>Snelle Levering</h3>
+                <p>Ontvang je producten binnen 48 uur in heel Nederland</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Veilige Betaling</h3>
+                <p>Alle transacties zijn beveiligd met SSL-versleuteling</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3>Gratis Retourneren</h3>
+                <p>30 dagen om elk product gratis terug te sturen</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3>Exclusieve Cadeaus</h3>
+                <p>Speciale verrassingen bij bestellingen boven de €50</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Zakje voor maar 0,50€!</h2>
+            <p>Ontdek onze bestsellers en nieuwste producten</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/cacahuate_enchilado.png" alt="Chili Pinda's" class="product-img">
+                <span class="product-badge featured-badge">Aanbevolen</span>
+                <div class="product-info">
+                    <h3 class="product-title">Chili Pinda's</h3>
+                    <div class="product-price">€0,50</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(128)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">In winkelwagen</button>
+                    </div>
+                </div>
+            </div>
+<!-- Producto 2 -->
+<div class="product-card">
+    <img src="images/cahuate_garapinado.png" alt="Laptop ABC" class="product-img">
+    <span class="product-badge sale-badge">-20%</span>
+    <div class="product-info">
+        <h3 class="product-title">Gesuikerde pinda met sesam</h3>
+        <div class="product-price">€0,55</div>
+        <div class="product-rating">
+            <div class="stars">★★★★☆</div>
+            <span>(95)</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn btn-primary">Aan winkelwagen toevoegen</button>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 3 -->
+<div class="product-card">
+    <img src="images/pistache_sal.png" alt="Smartwatch" class="product-img">
+    <div class="product-info">
+        <h3 class="product-title">Gezouten pistachenoten</h3>
+        <div class="product-price">€0,55</div>
+        <div class="product-rating">
+            <div class="stars">★★★★★</div>
+            <span>(213)</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn btn-primary">Aan winkelwagen toevoegen</button>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 4 -->
+<div class="product-card">
+    <img src="images/pistache_enchilado.png" alt="Auriculares" class="product-img">
+    <div class="out-of-stock-overlay">Niet op voorraad</div>
+    <div class="product-info">
+        <h3 class="product-title">Pistachenoten</h3>
+        <div class="product-price">€0,55</div>
+        <div class="product-rating">
+            <div class="stars">★★★★☆</div>
+            <span>(87)</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn btn-primary" disabled>Niet op voorraad</button>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 5 -->
+<div class="product-card">
+    <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+    <div class="product-info">
+        <h3 class="product-title">Pikante pistachenoten</h3>
+        <div class="product-price">€0,55</div>
+        <div class="product-rating">
+            <div class="stars">★★★★☆</div>
+            <span>(87)</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn btn-primary">Aan winkelwagen toevoegen</button>
+        </div>
+    </div>
+</div>
+
+<!-- Producto 6 -->
+<div class="product-card">
+    <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+    <div class="product-info">
+        <h3 class="product-title">Pistachenoten met citroen</h3>
+        <div class="product-price">€0,55</div>
+        <div class="product-rating">
+            <div class="stars">★★★★☆</div>
+            <span>(87)</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn btn-primary">Aan winkelwagen toevoegen</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Chicles y caramelos Section -->
+<section class="candy-section" id="xd">
+    <div class="section-title">
+        <h2>Kauwgom en snoepjes</h2>
+        <p>Ontdek onze heerlijke selectie premium snoepjes</p>
+    </div>
+
+    <div class="candy-grid">
+        <!-- Dulce 1 -->
+        <div class="candy-card">
+            <img src="images/halls_menta.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Halls Munt</h3>
+                <div class="candy-price">€0,83</div>
+                <p class="candy-description">Een verfrissende en heerlijke mix voor elke gelegenheid.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">Verfrissend</span>
+                    <span class="candy-tag">Klassiek</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                </div>
+            </div>
+        </div>
+
+            <!-- Snoepje 2 -->
+            <div class="candy-card">
+            <img src="images/halls_negras.png" alt="Halls Zwart" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Halls Zwart</h3>
+                <div class="candy-price">€0,70</div>
+                <p class="candy-description">Een verfrissende en heerlijke mix voor elke gelegenheid.</p>
+                <div class="candy-tags">
+                <span class="candy-tag">Verfrissend</span>
+                <span class="candy-tag">Klassiek</span>
+                </div>
+                <div class="product-actions">
+                <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                </div>
+            </div>
+            </div>
+            
+            <!-- Snoepje 3 -->
+            <div class="candy-card">
+            <img src="images/clorets.png" alt="Clorets" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Clorets</h3> 
+                <div class="candy-price">€7,00</div>
+                <p class="candy-description">Een verfrissende en heerlijke mix voor elke gelegenheid.</p>
+                <div class="candy-tags">
+                <span class="candy-tag">Gratis verzending</span>
+                <span class="candy-tag">60 Stuks</span>
+                </div>
+                <div class="product-actions">
+                <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                </div>
+            </div>
+            </div>
+            
+            <!-- Snoepje 4 -->
+            <div class="candy-card">
+            <img src="images/tictac.png" alt="Tic Tac Coca-cola" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Tic Tac Coca-cola</h3>
+                <div class="candy-price">€0,75</div>
+                <p class="candy-description">Tic Tac voor de fijnproever.</p>
+                <div class="candy-tags">
+                <span class="candy-tag">Gratis verzending</span>
+                <span class="candy-tag">12 Stuks</span>
+                </div>
+                <div class="product-actions">
+                <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                </div>
+            </div>
+            </div>
+            
+            <!-- Snoepje 5 -->
+            <div class="candy-card">
+            <img src="images/trident.png" alt="Trident" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">Trident</h3>
+                <div class="candy-price">€1,00</div>
+                <p class="candy-description">Tropische snoepjes met authentieke smaken.</p>
+                <div class="candy-tags">
+                <span class="candy-tag">Tropisch</span>
+                <span class="candy-tag">Authentiek</span>
+                </div>
+                <div class="product-actions">
+                <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                </div>
+            </div>
+            </div>
+        </div>
+            </div>
+    
+            <!-- M&M's -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/manems.png" alt="Halls" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">M&M's</h3> 
+                        <div class="candy-price">€2,00</div>
+                        <p class="candy-description">Snoepjes voor elke gelegenheid.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">Gratis verzending</span>
+                            <span class="candy-tag">60 Stuks</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kiss -->
+            <div class="candy-card">
+                <img src="images/kiss.png" alt="Noten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kiss</h3>
+                    <div class="candy-price">€4,00</div>
+                    <p class="candy-description">Chocolaatjes om te delen.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">12 Stuks</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Milky Way -->
+            <div class="candy-card">
+                <img src="images/milky_way.png" alt="Kokosrepen" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Milky Way</h3>
+                    <div class="candy-price">€1,00</div>
+                    <p class="candy-description">Neem 5 minuten pauze.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Heerlijk</span>
+                        <span class="candy-tag">Authentiek</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Snickers -->
+            <div class="candy-card">
+                <img src="images/snickers.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Snickers</h3>
+                    <div class="candy-price">€1,00</div>
+                    <p class="candy-description">Je bent jezelf niet als je honger hebt.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Heerlijk</span>
+                        <span class="candy-tag">Gratis verzending</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kinder Bueno -->
+            <div class="candy-card">
+                <img src="images/kinder_bueno.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kinder Bueno</h3>
+                    <div class="candy-price">€0,90</div>
+                    <p class="candy-description">Niets is lekkerder dan Kinder Bueno.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Chocolade</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Snacks en Snoepjes -->
+
+    <section class="candy-section">
+        <div class="section-title">
+            <h2>Snacks en Snoepjes</h2>
+            <p>Snacks, wat zal ik geven?</p>
+        </div>
+        
+        <div class="candy-grid">
+
+            <!-- Pepitorias -->
+            <div class="candy-card">
+                <img src="images/pistache_enchilado.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Pittige Pepitoria</h3>
+                    <div class="candy-price">€0,50</div>
+                    <p class="candy-description">Om van te genieten.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Traditioneel</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pinda's -->
+            <div class="candy-card">
+                <img src="images/cacahuate_enchilado.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Pittige Pinda's</h3>
+                    <div class="candy-price">€0,50</div>
+                    <p class="candy-description">Pinda's om te delen.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Lekker</span>
+                        <span class="candy-tag">Voedzaam</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marsepein -->
+            <div class="candy-card">
+                <img src="images/mazapanes.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Marsepein</h3>
+                    <div class="candy-price">€0,50</div>
+                    <p class="candy-description">Om niet te breken.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Aanbieding</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noten -->
+            <div class="candy-card">
+                <img src="images/nueces.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Noten</h3>
+                    <div class="candy-price">€2,50</div>
+                    <p class="candy-description">Koop je noten hier.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Natuurlijk</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pinguïns -->
+            <div class="candy-card">
+                <img src="images/pinguinos.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Pinguïn Gummies</h3>
+                    <div class="candy-price">€1,00</div>
+                    <p class="candy-description"></p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Gummies</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beertjes -->
+            <div class="candy-card">
+                <img src="images/panditas.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Beertjes</h3>
+                    <div class="candy-price">€1,00</div>
+                    <p class="candy-description">De beste gummies van het Wilde Westen.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gummies</span>
+                        <span class="candy-tag">Gratis verzending</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kikkers -->
+            <div class="candy-card">
+                <img src="images/ranas.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Kikkers</h3>
+                    <div class="candy-price">€0,25</div>
+                    <p class="candy-description">De beste chocolade van het Wilde Westen.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Heerlijke Kikkers</span>
+                        <span class="candy-tag">Gratis verzending</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bolletjes -->
+            <div class="candy-card">
+                <img src="images/bolitas.png" alt="Kaarten" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Bolletjes</h3>
+                    <div class="candy-price">€2,50</div>
+                    <p class="candy-description">Melksnoepjes.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Heerlijk</span>
+                        <span class="candy-tag">Gratis verzending</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Aan winkelwagen toevoegen</button>
+                    </div>
+                </div>
+            </div>
+
+     </div>
+    </section>
+
+            <!-- Motorfietsen -->
+            <div class="candy-card">
+                <img src="images/moto_yamaha.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Speelmotor</h3>
+                    <div class="candy-price">€17,50</div>
+                    <p class="candy-description">Kawasaki ninja h2r voor verzamelaars.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Speelgoed</span>
+                        <span class="candy-tag">Motoren</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Toevoegen aan winkelwagen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bellenblaas -->
+            <div class="candy-card">
+                <img src="images/burbujas.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Bellenblaas</h3>
+                    <div class="candy-price">€2,50</div>
+                    <p class="candy-description">Blaas bellen.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag">Speelgoed</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Toevoegen aan winkelwagen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auto -->
+            <div class="candy-card">
+                <img src="images/carro_jueguete.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">Speelgoedauto</h3>
+                    <div class="candy-price">€2,50</div>
+                    <p class="candy-description">Voor verzamelaars.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">Gratis verzending</span>
+                        <span class="candy-tag"></span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">Toevoegen aan winkelwagen</button>
+                    </div>
+                </div>
+            </div>
+            
+     </div>
+    </section>
+     </div>
+    </section>
+
+    <!-- Nieuwsbrief Sectie -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Abonneer je op onze nieuwsbrief</h2>
+            <p>Ontvang het laatste nieuws, exclusieve aanbiedingen en promoties direct in je e-mail</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Je e-mailadres" class="newsletter-input" required>
+                <button type="submit" class="newsletter-btn">Abonneren</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Voettekst -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Pistaches</h3>
+                <p>Je vertrouwde online winkel voor kwaliteitszoetigheden. Sinds 2010 bieden wij de beste producten tegen de beste prijs.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📱</a>
+                    <a href="#" class="social-link">📸</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Snelkoppelingen</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Startpagina</a></li>
+                    <li><a href="#xd">Producten</a></li>
+                    <li><a href="#">Snoepjes</a></li>
+                    <li><a href="#">Aanbiedingen</a></li>
+                    <li><a href="#">Mijn Account</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Klantenservice</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Veelgestelde Vragen</a></li>
+                    <li><a href="#">Retourneren</a></li>
+                    <li><a href="#">Verzending</a></li>
+                    <li><a href="#">Algemene Voorwaarden</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li>📍 Hoofdstraat 123, Nederland</li>
+                    <li>📞 +31 91 123 45 67</li>
+                    <li>✉️ luis_cisneros@pistaches.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pistaches. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+    
+    <!-- Cart Modal -->
+<div class="modal cart-modal" id="cartModal">
+    <div class="modal-content">
+        <h2>Je Winkelwagen</h2>
+        <button class="close-modal">&times;</button>
+        
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="images/cahuate_garapinado.png" alt="Smartphone XYZ" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">Gesuikerde pinda</h4>
+                    <div class="cart-item-price">€0.53 EUR</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="images/pistache_sal.png" alt="Chocolates" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">Pistache met zout</h4>
+                    <div class="cart-item-price">€0.53 EUR</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>2</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Totaal:</span>
+                <span>€1.06 EUR + Gratis Verzending</span>
+            </div>
+            <button class="checkout-btn">Afrekenen</button>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- Toast notifications container -->
+    <div class="toast-container"></div>
+    
+    <!-- Floating Cart Button -->
+    <div class="floating-cart">
+        🛒
+        <span class="floating-cart-count">3</span>
+    </div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>

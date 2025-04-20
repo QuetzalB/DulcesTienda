@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بستاشيوAR</title>
+    <link rel="stylesheet" href="styles_arabia.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="region-selector">
+            <div class="current-region">
+                <img src="images/arabia.png" alt="المكسيك" class="region-flag">
+                <span class="region-name">المكسيك</span>
+            </div>
+            <div class="region-dropdown">
+                <div class="region-search">
+                    <input type="text" placeholder="ابحث عن بلدك...">
+                    <i>🔍</i>
+                </div>
+                <div class="regions-list">
+                    <a href="mexico.html" class="region-item active">
+                        <img src="images/MX.png" alt="المكسيك" class="region-flag">
+                        <span>المكسيك</span>
+                    </a>
+                    <a href="spain.html" class="region-item">
+                        <img src="images/ES.png" alt="إسبانيا" class="region-flag">
+                        <span>إسبانيا</span>
+                    </a>
+                    <a href="usa.html" class="region-item">
+                        <img src="images/USA.png" alt="الولايات المتحدة الأمريكية" class="region-flag">
+                        <span>الولايات المتحدة</span>
+                    </a>
+                    <a href="japon.html" class="region-item">
+                        <img src="images/JPN.png" alt="اليابان" class="region-flag">
+                        <span>اليابان</span>
+                    </a>
+                    <a href="chile.html" class="region-item">
+                        <img src="images/chile.png" alt="تشيلي" class="region-flag">
+                        <span>تشيلي</span>
+                    </a>
+                    <a href="china.html" class="region-item">
+                        <img src="images/china.png" alt="الصين" class="region-flag">
+                        <span>الصين</span>
+                    </a>
+                    <a href="arabia.html" class="region-item">
+                        <img src="images/arabia.png" alt="المملكة العربية السعودية" class="region-flag">
+                        <span>المملكة العربية السعودية</span>
+                    </a>
+                    <a href="holanda.html" class="region-item">
+                        <img src="images/Holanda.svg" alt="هولندا" class="region-flag">
+                        <span>هولندا</span>
+                    </a>
+
+                </div>
+                <div class="region-hint">
+                    اختر بلدك لعرض المنتجات المتاحة
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="logo">بستا<span>شيو</span></a>
+        
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">الحلويات</a></li>
+                <li><a href="#">العروض</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-icons">
+            <button class="icon-btn">👤</button>
+            <button class="icon-btn" id="cartBtn">
+                🛒
+                <span class="cart-count">3</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>الفول السوداني والفستق!</h1>
+            <p>اكتشف مجموعتنا من الحلويات الفاخرة وأحدث المنتجات التقنية مع الشحن السريع والآمن.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">عرض المنتجات</button>
+                <button class="btn btn-secondary">عروض خاصة</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-title">
+            <h2>لماذا تختارنا؟</h2>
+            <p>نقدم الجودة والسرعة وأفضل خدمة لك</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>شحن سريع</h3>
+                <p>استلم منتجاتك في أقل من 48 ساعة في جميع أنحاء البلاد</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>دفع آمن</h3>
+                <p>جميع المعاملات محمية بتشفير SSL</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3>إرجاع مجاني</h3>
+                <p>30 يومًا لإرجاع أي منتج بدون تكلفة</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3>هدايا حصرية</h3>
+                <p>مفاجآت خاصة للطلبات التي تزيد عن 50 ريال سعودي</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>العبوة بعشرة ريالات!</h2>
+            <p>اكتشف الأكثر مبيعًا وأحدث منتجاتنا</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <img src="images/cacahuate_enchilado.png" alt="فول سوداني حار" class="product-img">
+                <span class="product-badge featured-badge">مميز</span>
+                <div class="product-info">
+                    <h3 class="product-title">فول سوداني حار</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(128)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="images/cahuate_garapinado.png" alt="فول سوداني بالسمسم والكراميل" class="product-img">
+                <span class="product-badge sale-badge">-٢٠٪</span>
+                <div class="product-info">
+                    <h3 class="product-title">فول سوداني بالسمسم والكراميل</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(95)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="images/pistache_sal.png" alt="فستق بالملح" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">فستق بالملح</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(213)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <img src="images/pistache_enchilado.png" alt="فستق" class="product-img">
+                <div class="out-of-stock-overlay">نفذت الكمية</div>
+                <div class="product-info">
+                    <h3 class="product-title">فستق</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary" disabled>نفذت الكمية</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="فستق حار" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">فستق حار</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">أضف إلى السلة</button>
+                    </div>
+                </div>
+        </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="فستق بالليمون" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">فستق بالليمون</h3>
+                    <div class="product-price">١٠ ريال سعودي</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- Chicles y caramelos Section -->
+    <section class="candy-section" id="xd">
+        <div class="section-title">
+            <h2>العلكة والحلويات</h2>
+            <p>اكتشف مجموعتنا اللذيذة من الحلويات الفاخرة</p>
+        </div>
+        
+        <div class="candy-grid">
+            <!-- Dulce 1 -->
+            <div class="candy-card">
+                <img src="images/halls_menta.png" alt="هولز نعناع" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">هولز نعناع</h3>
+                    <div class="candy-price">١٥ ريال سعودي</div>
+                    <p class="candy-description">مزيج منعش ولذيذ لأي مناسبة.</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">منعش</span>
+                        <span class="candy-tag">كلاسيكي</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 2 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/halls_negras.png" alt="هولز أسود" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">هولز أسود</h3>
+                        <div class="candy-price">١٥ ريال سعودي</div>
+                        <p class="candy-description">مزيج منعش ولذيذ لأي مناسبة.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">منعش</span>
+                            <span class="candy-tag">كلاسيكي</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">أضف إلى السلة</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 3 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/clorets.png" alt="كلوريتس" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">كلوريتس</h3> 
+                        <div class="candy-price">١٥٠ ريال سعودي</div>
+                        <p class="candy-description">مزيج منعش ولذيذ لأي مناسبة.</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">شحن مجاني</span>
+                            <span class="candy-tag">٦٠ قطعة</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">أضف إلى السلة</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dulce 4 -->
+<div class="candy-card">
+    <img src="images/tictac.png" alt="Nueces" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">تيك تاك كوكاكولا</h3>
+        <div class="candy-price">3.36 ريال سعودي</div>
+        <p class="candy-description">تيك تاك للذوق الرفيع.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">شحن مجاني</span>
+            <span class="candy-tag">12 قطعة</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">أضف إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<!-- Dulce 5 -->
+<div class="candy-card">
+    <img src="images/trident.png" alt="Cocadas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">ترايدنت</h3>
+        <div class="candy-price">4.20 ريال سعودي</div>
+        <p class="candy-description">حلويات استوائية بنكهات أصيلة.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">استوائي</span>
+            <span class="candy-tag">أصيل</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">أضف إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<!-- Dulces y chocolates Section -->
+<section class="candy-section">
+    <div class="section-title">
+        <h2>الحلويات والشوكولاتة</h2>
+        <p>اكتشف تشكيلتنا اللذيذة من الحلويات</p>
+    </div>
+    <div class="candy-grid">
+
+        <!-- Carlos V -->
+        <div class="candy-card">
+            <img src="images/carlos_v.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">كارلوس الخامس كلاسيك</h3>
+                <div class="candy-price">3.15 ريال سعودي</div>
+                <p class="candy-description">مزيج لذيذ لأي مناسبة.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">رائع</span>
+                    <span class="candy-tag">كلاسيكي</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ferrero Rocher -->
+        <div class="candy-card">
+            <img src="images/ferrero.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">فيريرو</h3>
+                <div class="candy-price">17.85 ريال سعودي</div>
+                <p class="candy-description">أنيق للهدايا وللذوق الرفيع.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">أنيق</span>
+                    <span class="candy-tag">كلاسيكي</span>
+                    <span class="candy-tag">شحن مجاني</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- M&M's -->
+        <div class="candy-card">
+            <img src="images/manems.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">إم آند إمز</h3>
+                <div class="candy-price">8.40 ريال سعودي</div>
+                <p class="candy-description">حلويات لكل مناسبة.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">60 قطعة</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kiss -->
+        <div class="candy-card">
+            <img src="images/kiss.png" alt="Nueces" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">كيس</h3>
+                <div class="candy-price">16.80 ريال سعودي</div>
+                <p class="candy-description">شوكولاتة للمشاركة.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">12 قطعة</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Milky Way -->
+        <div class="candy-card">
+            <img src="images/milky_way.png" alt="Cocadas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">ميلكي واي</h3>
+                <div class="candy-price">4.20 ريال سعودي</div>
+                <p class="candy-description">خذ 5 دقائق.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">لذيذ</span>
+                    <span class="candy-tag">أصيل</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Snickers -->
+        <div class="candy-card">
+            <img src="images/snickers.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">سنيكرز</h3>
+                <div class="candy-price">4.20 ريال سعودي</div>
+                <p class="candy-description">لست أنت عندما تكون جائعًا.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">لذيذ</span>
+                    <span class="candy-tag">شحن مجاني</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kinder Bueno -->
+        <div class="candy-card">
+            <img src="images/kinder_bueno.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">كيندر بوينو</h3>
+                <div class="candy-price">3.78 ريال سعودي</div>
+                <p class="candy-description">لا شيء ألذ من كيندر بوينو.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">شوكولاتة</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Botanas y Golosinas -->
+<section class="candy-section">
+    <div class="section-title">
+        <h2>الوجبات الخفيفة والحلويات</h2>
+        <p>وجبات خفيفة، ماذا سأقدم؟</p>
+    </div>
+    
+    <div class="candy-grid">
+
+        <!-- Pepitorias -->
+        <div class="candy-card">
+            <img src="images/pistache_enchilado.png" alt="فستق حار" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">فستق حار</h3>
+                <div class="candy-price">2.10 ريال سعودي</div>
+                <p class="candy-description">للتسلية.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">تقليدي</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cacahuate -->
+        <div class="candy-card">
+            <img src="images/cacahuate_enchilado.png" alt="فول سوداني حار" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">فول سوداني حار</h3>
+                <div class="candy-price">2.10 ريال سعودي</div>
+                <p class="candy-description">فول سوداني للمشاركة.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">لذيذ</span>
+                    <span class="candy-tag">مغذي</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mazapanes -->
+        <div class="candy-card">
+            <img src="images/mazapanes.png" alt="مازبان" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">مازبان</h3>
+                <div class="candy-price">2.10 ريال سعودي</div>
+                <p class="candy-description">للاستمتاع بدون كسر.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">عرض خاص</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nueces -->
+        <div class="candy-card">
+            <img src="images/nueces.png" alt="جوز" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">جوز</h3>
+                <div class="candy-price">10.50 ريال سعودي</div>
+                <p class="candy-description">اشترِ الجوز الخاص بك هنا.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">طبيعي</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pinguinos -->
+        <div class="candy-card">
+            <img src="images/pinguinos.png" alt="بطاريق" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">بطاريق جيلاتينية</h3>
+                <div class="candy-price">4.20 ريال سعودي</div>
+                <p class="candy-description">.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">شحن مجاني</span>
+                    <span class="candy-tag">جيلاتين</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panditas -->
+        <div class="candy-card">
+            <img src="images/panditas.png" alt="بانديتاس" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">بانديتاس</h3>
+                <div class="candy-price">4.20 ريال سعودي</div>
+                <p class="candy-description">أفضل جيلاتين في الغرب القديم.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">جيلاتين</span>
+                    <span class="candy-tag">شحن مجاني</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ranas -->
+        <div class="candy-card">
+            <img src="images/ranas.png" alt="ضفادع" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">ضفادع</h3>
+                <div class="candy-price">1.05 ريال سعودي</div>
+                <p class="candy-description">أفضل شوكولاتة في الغرب القديم.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">ضفادع لذيذة</span>
+                    <span class="candy-tag">شحن مجاني</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bolas -->
+        <div class="candy-card">
+            <img src="images/bolitas.png" alt="كرات" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">كرات</h3>
+                <div class="candy-price">10.50 ريال سعودي</div>
+                <p class="candy-description">حلويات بالحليب.</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">لذيذ</span>
+                    <span class="candy-tag">شحن مجاني</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">أضف إلى السلة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Motos -->
+<div class="candy-card">
+    <img src="images/moto_yamaha.png" alt="دراجة نارية" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">دراجة نارية لعبة</h3>
+        <div class="candy-price">73.50 ريال سعودي</div>
+        <p class="candy-description">كاواساكي نينجا h2r لهواة الجمع.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">شحن مجاني</span>
+            <span class="candy-tag">ألعاب</span>
+            <span class="candy-tag">دراجات نارية</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">أضف إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<!-- Burbujas -->
+<div class="candy-card">
+    <img src="images/burbujas.png" alt="فقاعات" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">فقاعات</h3>
+        <div class="candy-price">10.50 ريال سعودي</div>
+        <p class="candy-description">انفخ الفقاعات.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">شحن مجاني</span>
+            <span class="candy-tag">لعبة</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">أضف إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<!-- Carro -->
+<div class="candy-card">
+    <img src="images/carro_jueguete.png" alt="سيارة لعبة" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">سيارة لعبة</h3>
+        <div class="candy-price">10.50 ريال سعودي</div>
+        <p class="candy-description">للهواة.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">شحن مجاني</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">أضف إلى السلة</button>
+        </div>
+    </div>
+</div>
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>اشترك في نشرتنا الإخبارية</h2>
+        <p>احصل على أحدث الأخبار والعروض الحصرية والترقيات مباشرة إلى بريدك الإلكتروني</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="بريدك الإلكتروني" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">اشترك</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>بستاشيو</h3>
+            <p>متجرك الإلكتروني الموثوق للحلويات عالية الجودة. منذ عام 2010 نقدم أفضل المنتجات بأفضل الأسعار.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📱</a>
+                <a href="#" class="social-link">📸</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3>روابط سريعة</h3>
+            <ul class="footer-links">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#xd">المنتجات</a></li>
+                <li><a href="#">الحلويات</a></li>
+                <li><a href="#">العروض</a></li>
+                <li><a href="#">حسابي</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>خدمة العملاء</h3>
+            <ul class="footer-links">
+                <li><a href="#">الأسئلة الشائعة</a></li>
+                <li><a href="#">الإرجاع</a></li>
+                <li><a href="#">الشحن</a></li>
+                <li><a href="#">الشروط والأحكام</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>اتصل بنا</h3>
+            <ul class="footer-links">
+                <li>📍 الشارع الرئيسي 123، المكسيك</li>
+                <li>📞 +56 91 123 45 67</li>
+                <li>✉️ luis_cisneros@pistaches.com</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 بستاشيو. جميع الحقوق محفوظة.</p>
+    </div>
+</footer>
+
+<!-- Cart Modal -->
+<div class="modal cart-modal" id="cartModal">
+    <div class="modal-content">
+        <h2>سلة التسوق الخاصة بك</h2>
+        <button class="close-modal">&times;</button>
+        
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="images/cahuate_garapinado.png" alt="فول سوداني بالكراميل" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">فول سوداني بالكراميل</h4>
+                    <div class="cart-item-price">2.10 ريال سعودي</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="images/pistache_sal.png" alt="فستق بالملح" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">فستق بالملح</h4>
+                    <div class="cart-item-price">2.10 ريال سعودي</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>2</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>الإجمالي:</span>
+                <span>4.20 ريال سعودي + شحن مجاني</span>
+            </div>
+            <button class="checkout-btn">إنهاء الشراء</button>
+        </div>
+    </div>
+</div>
+
+<!-- Toast notifications container -->
+<div class="toast-container"></div>
+
+<!-- Floating Cart Button -->
+<div class="floating-cart">
+    🛒
+    <span class="floating-cart-count">3</span>
+</div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ピスタチェス・ジャパン</title>
+    <link rel="stylesheet" href="styles_japon.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="region-selector">
+            <div class="current-region">
+                <img src="images/JPN.png" alt="日本" class="region-flag">
+                <span class="region-name">日本</span>
+            </div>
+            <div class="region-dropdown">
+                <div class="region-search">
+                    <input type="text" placeholder="国を検索...">
+                    <i>🔍</i>
+                </div>
+                <div class="regions-list">
+                    <a href="mexico.html" class="region-item">
+                        <img src="images/MX.png" alt="メキシコ" class="region-flag">
+                        <span>メキシコ</span>
+                    </a>
+                    <a href="spain.html" class="region-item">
+                        <img src="images/ES.png" alt="スペイン" class="region-flag">
+                        <span>スペイン</span>
+                    </a>
+                    <a href="usa.html" class="region-item">
+                        <img src="images/USA.png" alt="アメリカ合衆国" class="region-flag">
+                        <span>アメリカ</span>
+                    </a>
+                    <a href="#" class="region-item active">
+                        <img src="images/JPN.png" alt="日本" class="region-flag">
+                        <span>日本</span>
+                    </a>
+                    <a href="chile.html" class="region-item">
+                        <img src="images/chile.png" alt="チリ" class="region-flag">
+                        <span>チリ</span>
+                    </a>
+                    <a href="china.html" class="region-item">
+                        <img src="images/china.png" alt="中国" class="region-flag">
+                        <span>中国</span>
+                    </a>
+                    <a href="arabia.html" class="region-item">
+                        <img src="images/arabia.png" alt="サウジアラビア" class="region-flag">
+                        <span>サウジアラビア</span>
+                    </a>
+                    <a href="holanda.html" class="region-item">
+                        <img src="images/Holanda.svg" alt="オランダ" class="region-flag">
+                        <span>オランダ</span>
+                    </a>
+
+                </div>
+                <div class="region-hint">
+                    あなたの国を選択して利用可能な商品を見る
+                </div>
+            </div>
+        </div>
+        
+        <a href="#" class="logo">ピスタ<span>チェス</span></a>
+        
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">商品</a></li>
+                <li><a href="#">お菓子</a></li>
+                <li><a href="#">セール</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-icons">
+            <button class="icon-btn">👤</button>
+            <button class="icon-btn" id="cartBtn">
+                🛒
+                <span class="cart-count">3</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ピーナッツとピスタチオ！</h1>
+            <p>当店自慢の高級お菓子と最新商品を、素早く安全な配送でお届けします。</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary">商品を見る</button>
+                <button class="btn btn-secondary">特別オファー</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-title">
+            <h2>なぜ私たちを選ぶのか？</h2>
+            <p>品質、スピード、そして最高のサービスを提供します</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3>迅速な配送</h3>
+                <p>全国どこでも48時間以内にお届けします</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>安全な決済</h3>
+                <p>すべての取引はSSL暗号化で保護されています</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔄</div>
+                <h3>返品無料</h3>
+                <p>どの商品も30日間無料で返品可能</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3>特別なギフト</h3>
+                <p>5000円以上のご注文で特別なプレゼント付き</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>一袋100円！</h2>
+            <p>ベストセラーと新商品をチェック</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <img src="images/cacahuate_enchilado.png" alt="スパイシーピーナッツ" class="product-img">
+                <span class="product-badge featured-badge">おすすめ</span>
+                <div class="product-info">
+                    <h3 class="product-title">辛口ピーナッツ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(128)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="images/cahuate_garapinado.png" alt="キャラメルピーナッツ" class="product-img">
+                <span class="product-badge sale-badge">-20%</span>
+                <div class="product-info">
+                    <h3 class="product-title">ゴマ入りキャラメルピーナッツ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(95)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="images/pistache_sal.png" alt="塩ピスタチオ" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">塩味ピスタチオ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★★</div>
+                        <span>(213)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <img src="images/pistache_enchilado.png" alt="ピスタチオ" class="product-img">
+                <div class="out-of-stock-overlay">売り切れ</div>
+                <div class="product-info">
+                    <h3 class="product-title">ピスタチオ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary" disabled>売り切れ</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="スパイシーピスタチオ" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">スパイシーピスタチオ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">カートに入れる</button>
+                    </div>
+                </div>
+        </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <img src="images/pistache_limon.png" alt="レモンピスタチオ" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">レモン風味ピスタチオ</h3>
+                    <div class="product-price">¥100</div>
+                    <div class="product-rating">
+                        <div class="stars">★★★★☆</div>
+                        <span>(87)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- Chicles y caramelos Section -->
+    <section class="candy-section" id="xd">
+        <div class="section-title">
+            <h2>ガムとキャンディー</h2>
+            <p>当店自慢の高級お菓子コレクションをご覧ください</p>
+        </div>
+        
+        <div class="candy-grid">
+            <!-- Dulce 1 -->
+            <div class="candy-card">
+                <img src="images/halls_menta.png" alt="ホールズ" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">ホールズ ミント</h3>
+                    <div class="candy-price">¥150</div>
+                    <p class="candy-description">さわやかで美味しい、どんなときにもぴったりの組み合わせ。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">さわやか</span>
+                        <span class="candy-tag">定番</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 2 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/halls_negras.png" alt="ホールズ" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">ホールズ ブラック</h3>
+                        <div class="candy-price">¥150</div>
+                        <p class="candy-description">さわやかで美味しい、どんなときにもぴったりの組み合わせ。</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">さわやか</span>
+                            <span class="candy-tag">定番</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">カートに入れる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dulce 3 -->
+            <div class="candy-card">
+                <div class="candy-card">
+                    <img src="images/clorets.png" alt="クロレッツ" class="candy-img">
+                    <div class="candy-info">
+                        <h3 class="candy-title">クロレッツ</h3> 
+                        <div class="candy-price">¥1500</div>
+                        <p class="candy-description">さわやかで美味しい、どんなときにもぴったりの組み合わせ。</p>
+                        <div class="candy-tags">
+                            <span class="candy-tag">送料無料</span>
+                            <span class="candy-tag">60個入り</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn candy-btn">カートに入れる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dulce 4 -->
+            <div class="candy-card">
+                <img src="images/tictac.png" alt="ティックタック" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">ティックタック コカコーラ</h3>
+                    <div class="candy-price">¥160</div>
+                    <p class="candy-description">良い味わいのためのティックタック。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">送料無料</span>
+                        <span class="candy-tag">12個入り</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Dulce 5 -->
+<div class="candy-card">
+    <img src="images/trident.png" alt="Cocadas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">トライデント</h3>
+        <div class="candy-price">¥150</div>
+        <p class="candy-description">本格的なトロピカルフレーバーのお菓子。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">トロピカル</span>
+            <span class="candy-tag">本格的</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">カートに追加</button>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- キャンディーとチョコレートセクション -->
+<section class="candy-section">
+    <div class="section-title">
+        <h2>キャンディーとチョコレート</h2>
+        <p>美味しいお菓子のセレクションをご覧ください</p>
+    </div>
+    
+    <div class="candy-grid">
+
+        <!-- Carlos V -->
+        <div class="candy-card">
+            <img src="images/carlos_v.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">カルロス V クラシック</h3>
+                <div class="candy-price">¥112</div>
+                <p class="candy-description">どんな場面にも合う美味しいブレンド。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">とても美味しい</span>
+                    <span class="candy-tag">クラシック</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ferrero Rocher -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/ferrero.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">フェレロ</h3>
+                    <div class="candy-price">¥638</div>
+                    <p class="candy-description">贈り物や自分へのご褒美に最適なエレガントなチョコレート。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">エレガント</span>
+                        <span class="candy-tag">クラシック</span>
+                        <span class="candy-tag">送料無料</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">カートに追加</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- M&M's -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/manems.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">M&M's</h3> 
+                    <div class="candy-price">¥300</div>
+                    <p class="candy-description">あらゆる場面に最適なお菓子。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">送料無料</span>
+                        <span class="candy-tag">60個入り</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">カートに追加</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kiss -->
+        <div class="candy-card">
+            <img src="images/kiss.png" alt="Nueces" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">キス</h3>
+                <div class="candy-price">¥600</div>
+                <p class="candy-description">みんなでシェアするチョコレート。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">12個入り</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Milky Way -->
+        <div class="candy-card">
+            <img src="images/milky_way.png" alt="Cocadas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">ミルキーウェイ</h3>
+                <div class="candy-price">¥150</div>
+                <p class="candy-description">5分間の休憩に。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">絶品</span>
+                    <span class="candy-tag">本格的</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Snickers -->
+        <div class="candy-card">
+            <img src="images/snickers.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">スニッカーズ</h3>
+                <div class="candy-price">¥150</div>
+                <p class="candy-description">お腹がすいたときはあなたじゃない。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味</span>
+                    <span class="candy-tag">送料無料</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kinder Bueno -->
+        <div class="candy-card">
+            <img src="images/kinder_bueno.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">キンダーブエノ</h3>
+                <div class="candy-price">¥135</div>
+                <p class="candy-description">キンダーブエノほど美味しいものはありません。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">チョコレート</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- スナックとお菓子 -->
+
+<section class="candy-section">
+    <div class="section-title">
+        <h2>スナックとお菓子</h2>
+        <p>スナック、何を差し上げましょうか？</p>
+    </div>
+    
+    <div class="candy-grid">
+
+        <!-- Pepitorias -->
+        <div class="candy-card">
+            <img src="images/pistache_enchilado.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">唐辛子味のペピトリア</h3>
+                <div class="candy-price">¥75</div>
+                <p class="candy-description">スナックタイムに。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">伝統的</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cacahuate -->
+        <div class="candy-card">
+            <img src="images/cacahuate_enchilado.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">唐辛子味のピーナッツ</h3>
+                <div class="candy-price">¥75</div>
+                <p class="candy-description">みんなでシェアするピーナッツ。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味しい</span>
+                    <span class="candy-tag">栄養価が高い</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mazapanes -->
+        <div class="candy-card">
+            <img src="images/mazapanes.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">マサパン</h3>
+                <div class="candy-price">¥75</div>
+                <p class="candy-description">壊れないように。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">プロモーション</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nueces -->
+        <div class="candy-card">
+            <img src="images/nueces.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">クルミ</h3>
+                <div class="candy-price">¥375</div>
+                <p class="candy-description">ここでクルミをお買い求めください。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">ナチュラル</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pinguinos -->
+        <div class="candy-card">
+            <img src="images/pinguinos.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">ペンギングミ</h3>
+                <div class="candy-price">¥150</div>
+                <p class="candy-description"></p>
+                <div class="candy-tags">
+                    <span class="candy-tag">送料無料</span>
+                    <span class="candy-tag">グミ</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panditas -->
+        <div class="candy-card">
+            <img src="images/panditas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">パンディタス</h3>
+                <div class="candy-price">¥150</div>
+                <p class="candy-description">西部の最高のグミ</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">グミ</span>
+                    <span class="candy-tag">送料無料</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ranas -->
+        <div class="candy-card">
+            <img src="images/ranas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">カエル型チョコ</h3>
+                <div class="candy-price">¥37</div>
+                <p class="candy-description">西部の最高のチョコレート</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味しいカエル型チョコ</span>
+                    <span class="candy-tag">送料無料</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bolas -->
+        <div class="candy-card">
+            <img src="images/bolitas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">ボリータス</h3>
+                <div class="candy-price">¥375</div>
+                <p class="candy-description">ミルクキャンディー</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味しい</span>
+                    <span class="candy-tag">送料無料</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">カートに追加</button>
+                </div>
+            </div>
+        </div>
+
+ </div>
+</section>
+<!-- Motos -->
+<div class="candy-card">
+    <img src="images/moto_yamaha.png" alt="Moto de juguete" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">Moto de juguete</h3>
+        <div class="candy-price">$350 MXN</div>
+        <p class="candy-description">Kawasaki ninja h2r de coleccion.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">Envio Gratis</span>
+            <span class="candy-tag">Juguetes</span>
+            <span class="candy-tag">Motos</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">Añadir al carrito</button>
+        </div>
+    </div>
+</div>
+
+<!-- Burbujas -->
+<div class="candy-card">
+    <img src="images/burbujas.png" alt="Burbujas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">Burbujas</h3>
+        <div class="candy-price">$50 MXN</div>
+        <p class="candy-description">Sopla burbujas.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">Envio Gratis</span>
+            <span class="candy-tag">Juguete</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">Añadir al carrito</button>
+        </div>
+    </div>
+</div>
+
+<!-- Carro -->
+<div class="candy-card">
+    <img src="images/carro_jueguete.png" alt="Carrito de juguete" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">Carrito de juguete</h3>
+        <div class="candy-price">$50 MXN</div>
+        <p class="candy-description">De colección.</p>
+        <div class="candy-tags">
+            <span class="candy-tag">Envio Gratis</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">Añadir al carrito</button>
+        </div>
+    </div>
+</div>
+
+<!-- ニュースレターセクション -->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>ニュースレターに登録</h2>
+        <p>最新の情報、限定オファー、プロモーションをメールでお届けします。</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="あなたのメールアドレス" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">登録</button>
+        </form>
+    </div>
+</section>
+
+<!-- フッター -->
+<footer>
+    <div class="footer-content">
+        <!-- Pistaches セクション -->
+        <div class="footer-column">
+            <h3>Pistaches</h3>
+            <p>品質の高いお菓子を取り扱う信頼のオンラインショップ。2010年から最高の製品を最適な価格で提供しています。</p>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📱</a>
+                <a href="#" class="social-link">📸</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+        </div>
+
+        <!-- 速いリンクセクション -->
+        <div class="footer-column">
+            <h3>速いリンク</h3>
+            <ul class="footer-links">
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">商品</a></li>
+                <li><a href="#">お菓子</a></li>
+                <li><a href="#">オファー</a></li>
+                <li><a href="#">マイアカウント</a></li>
+            </ul>
+        </div>
+
+        <!-- カスタマーサービスセクション -->
+        <div class="footer-column">
+            <h3>カスタマーサービス</h3>
+            <ul class="footer-links">
+                <li><a href="#">よくある質問</a></li>
+                <li><a href="#">返品</a></li>
+                <li><a href="#">配送</a></li>
+                <li><a href="#">利用規約</a></li>
+            </ul>
+        </div>
+
+        <!-- お問い合わせセクション -->
+        <div class="footer-column">
+            <h3>お問い合わせ</h3>
+            <ul class="footer-links">
+                <li>📍 メインストリート123、東京</li>
+                <li>📞 +81 91 123 45 67</li>
+                <li>✉️ info@pistaches.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- フッターの下部 -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Pistaches. 全著作権所有。</p>
+    </div>
+</footer>
+
+<!-- カートモーダル -->
+<div class="modal cart-modal" id="cartModal">
+    <div class="modal-content">
+        <h2>あなたのカート</h2>
+        <button class="close-modal">&times;</button>
+        
+        <div class="cart-items">
+            <!-- カートアイテム1 -->
+            <div class="cart-item">
+                <img src="images/cahuate_garapinado.png" alt="カハウアテ・ガラピニャード" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">カハウアテ・ガラピニャード</h4>
+                    <div class="cart-item-price">¥1000</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- カートアイテム2 -->
+            <div class="cart-item">
+                <img src="images/pistache_sal.png" alt="塩付きピスタチオ" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">塩付きピスタチオ</h4>
+                    <div class="cart-item-price">¥1000</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>2</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>合計:</span>
+                <span>¥2000 + 送料無料</span>
+            </div>
+            <button class="checkout-btn">購入を完了する</button>
+        </div>
+    </div>
+</div>
+
+<!-- トースト通知コンテナ -->
+<div class="toast-container"></div>
+
+<!-- 浮動的カートボタン -->
+<div class="floating-cart">
+    🛒
+    <span class="floating-cart-count">3</span>
+</div>
+
+<!-- スクリプト -->
+<script src="scripts.js"></script>
+</body>
+</html>

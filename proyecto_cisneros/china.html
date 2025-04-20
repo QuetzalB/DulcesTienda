@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PistachesCH</title>
+    <link rel="stylesheet" href="styles_china.css">
+</head>
+
+<!-- Header -->
+<header>
+    <div class="region-selector">
+        <div class="current-region">
+            <img src="images/china.png" alt="Mexico" class="region-flag">
+            <span class="region-name">墨西哥</span>
+        </div>
+        <div class="region-dropdown">
+            <div class="region-search">
+                <input type="text" placeholder="搜索国家...">
+                <i>🔍</i>
+            </div>
+            <div class="regions-list">
+                <a href="#" class="region-item active">
+                    <img src="images/MX.png" alt="墨西哥" class="region-flag">
+                    <span>墨西哥</span>
+                </a>
+                <a href="spain.html" class="region-item">
+                    <img src="images/ES.png" alt="西班牙" class="region-flag">
+                    <span>西班牙</span>
+                </a>
+                <a href="usa.html" class="region-item">
+                    <img src="images/USA.png" alt="美国" class="region-flag">
+                    <span>美国</span>
+                </a>
+                <a href="japon.html" class="region-item">
+                    <img src="images/JPN.png" alt="日本" class="region-flag">
+                    <span>日本</span>
+                </a>
+                <a href="chile.html" class="region-item">
+                    <img src="images/chile.png" alt="智利" class="region-flag">
+                    <span>智利</span>
+                </a>
+                <a href="china.html" class="region-item">
+                    <img src="images/china.png" alt="中国" class="region-flag">
+                    <span>中国</span>
+                </a>
+                <a href="arabia.html" class="region-item">
+                    <img src="images/arabia.png" alt="阿拉伯" class="region-flag">
+                    <span>阿拉伯</span>
+                </a>
+                <a href="holanda.html" class="region-item">
+                    <img src="images/Holanda.svg" alt="荷兰" class="region-flag">
+                    <span>荷兰</span>
+                </a>
+            </div>
+            <div class="region-hint">
+                选择您的国家以查看可用产品
+            </div>
+        </div>
+    </div>
+    
+    <a href="#" class="logo">开心<span>果</span></a>
+    
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">糖果</a></li>
+            <li><a href="#">优惠</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+    
+    <div class="header-icons">
+        <button class="icon-btn">👤</button>
+        <button class="icon-btn" id="cartBtn">
+            🛒
+            <span class="cart-count">3</span>
+        </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>花生和开心果！</h1>
+        <p>探索我们精选的美食糖果和最新技术产品，快速安全配送。</p>
+        <div class="hero-btns">
+            <button class="btn btn-primary">查看产品</button>
+            <button class="btn btn-secondary">特别优惠</button>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="section-title">
+        <h2>为什么选择我们？</h2>
+        <p>我们为您提供质量、速度和最佳服务</p>
+    </div>
+    
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>快速配送</h3>
+            <p>全国48小时内收到您的产品</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>安全支付</h3>
+            <p>所有交易均采用SSL加密保护</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3>免费退货</h3>
+            <p>30天内免费退回任何产品</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">🎁</div>
+            <h3>专属礼品</h3>
+            <p>超过50€的订单有特别惊喜</p>
+        </div>
+    </div>
+</section>
+<!-- Featured Products Section -->
+<section class="products">
+    <div class="section-title">
+        <h2>每袋只要十元！</h2>
+        <p>探索我们最畅销和最新的产品</p>
+    </div>
+    
+    <div class="products-grid">
+        <!-- Producto 1 -->
+        <div class="product-card">
+            <img src="images/cacahuate_enchilado.png" alt="Smartphone XYZ" class="product-img">
+            <span class="product-badge featured-badge">精选</span>
+            <div class="product-info">
+                <h3 class="product-title">辣味花生</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★★</div>
+                    <span>(128)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <img src="images/cahuate_garapinado.png" alt="Laptop ABC" class="product-img">
+            <span class="product-badge sale-badge">-20%</span>
+            <div class="product-info">
+                <h3 class="product-title">芝麻焦糖花生</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(95)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Producto 3 -->
+        <div class="product-card">
+            <img src="images/pistache_sal.png" alt="Smartwatch" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">盐味开心果</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★★</div>
+                    <span>(213)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Producto 4 -->
+        <div class="product-card">
+            <img src="images/pistache_enchilado.png" alt="Auriculares" class="product-img">
+            <div class="out-of-stock-overlay">售罄</div>
+            <div class="product-info">
+                <h3 class="product-title">开心果</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary" disabled>售罄</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="product-card">
+            <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">辣味开心果</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="product-card">
+            <img src="images/pistache_limon.png" alt="Auriculares" class="product-img">
+            <div class="product-info">
+                <h3 class="product-title">柠檬味开心果</h3>
+                <div class="product-price">$10 墨西哥比索</div>
+                <div class="product-rating">
+                    <div class="stars">★★★★☆</div>
+                    <span>(87)</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">加入购物车</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Chicles y caramelos Section -->
+<section class="candy-section" id="xd">
+    <div class="section-title">
+        <h2>口香糖和糖果</h2>
+        <p>探索我们美味的高级糖果精选</p>
+    </div>
+    
+    <div class="candy-grid">
+        <!-- Dulce 1 -->
+        <div class="candy-card">
+            <img src="images/halls_menta.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">薄荷味好丽友</h3>
+                <div class="candy-price">$15.00 墨西哥比索</div>
+                <p class="candy-description">适合任何场合的清新美味混合。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">清爽</span>
+                    <span class="candy-tag">经典</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dulce 2 -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/halls_negras.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">黑色好丽友</h3>
+                    <div class="candy-price">$15.00 墨西哥比索</div>
+                    <p class="candy-description">适合任何场合的清新美味混合。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">清爽</span>
+                        <span class="candy-tag">经典</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dulce 3 -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/clorets.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">绿箭</h3> 
+                    <div class="candy-price">$150.00 墨西哥比索</div>
+                    <p class="candy-description">适合任何场合的清新美味混合。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">免费配送</span>
+                        <span class="candy-tag">60件装</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dulce 4 -->
+        <div class="candy-card">
+            <img src="images/tictac.png" alt="Nueces" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">可口可乐味滴答糖</h3>
+                <div class="candy-price">$16.00 墨西哥比索</div>
+                <p class="candy-description">滴答糖给您带来美好味道。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">免费配送</span>
+                    <span class="candy-tag">12件装</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dulce 5 -->
+        <div class="candy-card">
+            <img src="images/trident.png" alt="Cocadas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">箭牌</h3>
+                <div class="candy-price">$20.00 墨西哥比索</div>
+                <p class="candy-description">带有真实口味的热带糖果。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">热带风味</span>
+                    <span class="candy-tag">正宗</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dulces y chocolates Section -->
+<section class="candy-section">
+    <div class="section-title">
+        <h2>糖果和巧克力</h2>
+        <p>探索我们美味的糖果精选</p>
+    </div>
+    
+    <div class="candy-grid">
+        <!-- Carlos V -->
+        <div class="candy-card">
+            <img src="images/carlos_v.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">卡洛斯五世经典巧克力</h3>
+                <div class="candy-price">$15.00 墨西哥比索</div>
+                <p class="candy-description">适合任何场合的美味混合。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味</span>
+                    <span class="candy-tag">经典</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ferrero Rocher -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/ferrero.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">费列罗</h3>
+                    <div class="candy-price">$85.00 墨西哥比索</div>
+                    <p class="candy-description">优雅的礼品，满足您的品味。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">优雅</span>
+                        <span class="candy-tag">经典</span>
+                        <span class="candy-tag">免费配送</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- M&M's -->
+        <div class="candy-card">
+            <div class="candy-card">
+                <img src="images/manems.png" alt="Halls" class="candy-img">
+                <div class="candy-info">
+                    <h3 class="candy-title">M&M's巧克力豆</h3> 
+                    <div class="candy-price">$40.00 墨西哥比索</div>
+                    <p class="candy-description">适合任何场合的糖果。</p>
+                    <div class="candy-tags">
+                        <span class="candy-tag">免费配送</span>
+                        <span class="candy-tag">60件装</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn candy-btn">加入购物车</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kiss -->
+<div class="candy-card">
+    <img src="images/kiss.png" alt="Nueces" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">好时之吻</h3>
+        <div class="candy-price">$80.00 墨西哥比索</div>
+        <p class="candy-description">适合分享的巧克力。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">免费配送</span>
+            <span class="candy-tag">12件装</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">加入购物车</button>
+        </div>
+    </div>
+</div>
+
+<!-- Milky Way -->
+<div class="candy-card">
+    <img src="images/milky_way.png" alt="Cocadas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">银河巧克力</h3>
+        <div class="candy-price">$20.00 墨西哥比索</div>
+        <p class="candy-description">给自己5分钟休息。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">美味</span>
+            <span class="candy-tag">正宗</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">加入购物车</button>
+        </div>
+    </div>
+</div>
+
+<!-- Snickers -->
+<div class="candy-card">
+    <img src="images/snickers.png" alt="Tarjetas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">士力架</h3>
+        <div class="candy-price">$ 20 墨西哥比索</div>
+        <p class="candy-description">饿了，你就不是你。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">美味</span>
+            <span class="candy-tag">免费配送</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">加入购物车</button>
+        </div>
+    </div>
+</div>
+
+<!-- Kinder Bueno -->
+<div class="candy-card">
+    <img src="images/kinder_bueno.png" alt="Tarjetas" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">健达缤纷</h3>
+        <div class="candy-price">$18 墨西哥比索</div>
+        <p class="candy-description">没有什么比健达缤纷更美味的了。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">免费配送</span>
+            <span class="candy-tag">巧克力</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">加入购物车</button>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!-- Botanas y Golosinas -->
+
+<section class="candy-section">
+    <div class="section-title">
+        <h2>零食和小吃</h2>
+        <p>小零食，我该给您什么呢？</p>
+    </div>
+    
+    <div class="candy-grid">
+
+        <!-- Pepitorias -->
+        <div class="candy-card">
+            <img src="images/pistache_enchilado.png" alt="Halls" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">辣味南瓜籽</h3>
+                <div class="candy-price">$10.00 墨西哥比索</div>
+                <p class="candy-description">休闲小吃。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">免费配送</span>
+                    <span class="candy-tag">传统</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cacahuate -->
+        <div class="candy-card">
+            <img src="images/cacahuate_enchilado.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">辣味花生</h3>
+                <div class="candy-price">$10 墨西哥比索</div>
+                <p class="candy-description">适合分享的花生。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味</span>
+                    <span class="candy-tag">有营养</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mazapanes -->
+        <div class="candy-card">
+            <img src="images/mazapanes.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">杏仁糖</h3>
+                <div class="candy-price">$10 墨西哥比索</div>
+                <p class="candy-description">不要打碎它。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">免费配送</span>
+                    <span class="candy-tag">促销</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nueces -->
+        <div class="candy-card">
+            <img src="images/nueces.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">核桃</h3>
+                <div class="candy-price">$50 墨西哥比索</div>
+                <p class="candy-description">在这里购买您的核桃。</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">免费配送</span>
+                    <span class="candy-tag">天然</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pinguinos -->
+        <div class="candy-card">
+            <img src="images/pinguinos.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">企鹅软糖</h3>
+                <div class="candy-price">$20 墨西哥比索</div>
+                <p class="candy-description"></p>
+                <div class="candy-tags">
+                    <span class="candy-tag">免费配送</span>
+                    <span class="candy-tag">软糖</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panditas -->
+        <div class="candy-card">
+            <img src="images/panditas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">小熊软糖</h3>
+                <div class="candy-price">$20.00 墨西哥比索</div>
+                <p class="candy-description">旧西部最好的软糖</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">软糖</span>
+                    <span class="candy-tag">免费配送</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ranas -->
+        <div class="candy-card">
+            <img src="images/ranas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">青蛙巧克力</h3>
+                <div class="candy-price">$5.00 墨西哥比索</div>
+                <p class="candy-description">旧西部最好的巧克力</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味青蛙</span>
+                    <span class="candy-tag">免费配送</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bolas -->
+        <div class="candy-card">
+            <img src="images/bolitas.png" alt="Tarjetas" class="candy-img">
+            <div class="candy-info">
+                <h3 class="candy-title">奶糖球</h3>
+                <div class="candy-price">$50 墨西哥比索</div>
+                <p class="candy-description">牛奶糖果</p>
+                <div class="candy-tags">
+                    <span class="candy-tag">美味</span>
+                    <span class="candy-tag">免费配送</span>
+                </div>
+                <div class="product-actions">
+                    <button class="btn candy-btn">加入购物车</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Motos -->
+<div class="candy-card">
+    <img src="images/moto_yamaha.png" alt="Halls" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">玩具摩托车</h3>
+        <div class="candy-price">¥3,100 CNY</div>
+        <p class="candy-description">川崎忍者h2r收藏版，非常棒。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">免费送货</span>
+            <span class="candy-tag">玩具</span>
+            <span class="candy-tag">摩托车</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">添加到购物车</button>
+        </div>
+    </div>
+</div>
+
+<!-- Burbujas -->
+<div class="candy-card">
+    <img src="images/burbujas.png" alt="Halls" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">泡泡玩具</h3>
+        <div class="candy-price">¥450 CNY</div>
+        <p class="candy-description">吹泡泡，享受快乐时光。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">免费送货</span>
+            <span class="candy-tag">玩具</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">添加到购物车</button>
+        </div>
+    </div>
+</div>
+
+<!-- Carro -->
+<div class="candy-card">
+    <img src="images/carro_jueguete.png" alt="Halls" class="candy-img">
+    <div class="candy-info">
+        <h3 class="candy-title">玩具小汽车</h3>
+        <div class="candy-price">¥450 CNY</div>
+        <p class="candy-description">收藏版，适合小朋友。</p>
+        <div class="candy-tags">
+            <span class="candy-tag">免费送货</span>
+            <span class="candy-tag">超酷</span>
+        </div>
+        <div class="product-actions">
+            <button class="btn candy-btn">添加到购物车</button>
+        </div>
+    </div>
+</div>
+        
+</div>
+</section>
+</div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <h2>订阅我们的通讯</h2>
+        <p>立即在您的邮箱接收最新消息、独家优惠和促销信息</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="您的电子邮箱" class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">订阅</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>开心果店</h3>
+            <p>您值得信赖的优质糖果在线商店。自2010年以来，我们一直提供最好的产品，价格合理。</p>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📱</a>
+                <a href="#" class="social-link">📸</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3>快速链接</h3>
+            <ul class="footer-links">
+                <li><a href="#">首页</a></li>
+                <li><a href="#xd">产品</a></li>
+                <li><a href="#">糖果</a></li>
+                <li><a href="#">优惠</a></li>
+                <li><a href="#">我的账户</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>客户服务</h3>
+            <ul class="footer-links">
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">退货政策</a></li>
+                <li><a href="#">配送信息</a></li>
+                <li><a href="#">条款和条件</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>联系我们</h3>
+            <ul class="footer-links">
+                <li>📍 北京市主街123号</li>
+                <li>📞 +86 123 4567 8901</li>
+                <li>✉️ contact@pistaches.cn</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 开心果店。保留所有权利。</p>
+    </div>
+</footer>
+
+<!-- Cart Modal -->
+<div class="modal cart-modal" id="cartModal">
+    <div class="modal-content">
+        <h2>您的购物车</h2>
+        <button class="close-modal">&times;</button>
+        
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="images/cahuate_garapinado.png" alt="Smartphone XYZ" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">糖衣花生</h4>
+                    <div class="cart-item-price">¥90 CNY</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>1</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="images/pistache_sal.png" alt="Chocolates" class="cart-item-img">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-title">盐味开心果</h4>
+                    <div class="cart-item-price">¥90 CNY</div>
+                    <div class="cart-item-quantity">
+                        <button class="qty-btn">-</button>
+                        <span>2</span>
+                        <button class="qty-btn">+</button>
+                        <button class="remove-item">🗑️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>总计:</span>
+                <span>¥180 CNY + 免费送货</span>
+            </div>
+            <button class="checkout-btn">完成购买</button>
+        </div>
+    </div>
+</div>
+
+<!-- Toast notifications container -->
+<div class="toast-container"></div>
+
+<!-- Floating Cart Button -->
+<div class="floating-cart">
+    🛒
+    <span class="floating-cart-count">3</span>
+</div>
+<!-- Scripts -->
+<script src="scripts.js"></script>
+</body>
+</html>
